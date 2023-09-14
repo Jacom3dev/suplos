@@ -1,5 +1,6 @@
 <?php
 
+/* valido atributos que vienen en el body */
 function validateRequiredFields($requiredFields,$body)
 {
     $missingFields = array_diff($requiredFields, array_keys($body));
